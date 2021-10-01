@@ -63,7 +63,7 @@ class _CenterContentState extends State<CenterContent> {
     "Sanima Life Insurance Limited",
     "8% Nabil Debenture 2085",
     "Manushi Laghubitta Bittiya Sanstha Limited",
-    "Terhathum Power Company Ltd"
+    "Nepal Infrastructure bank Limited"
   ];
 
   final List<DropdownMenuItem<String>> _companiesList = companies
@@ -146,7 +146,7 @@ class _CenterContentState extends State<CenterContent> {
                   padding: EdgeInsets.symmetric(horizontal: 20),
                   decoration: BoxDecoration(
                     color: Colors.white,
-                    borderRadius: BorderRadius.circular(4),
+                    borderRadius: BorderRadius.circular(6),
                   ),
                   child: TextField(
                     controller: boidController,
@@ -214,7 +214,7 @@ class _CenterContentState extends State<CenterContent> {
                     decisionText,
                     style: TextStyle(
                       color:
-                          alloted ? Colors.greenAccent[700] : Colors.red[600],
+                          alloted ? Colors.greenAccent[700] : Colors.red[500],
                       fontSize: 16.0,
                     ),
                   ),
