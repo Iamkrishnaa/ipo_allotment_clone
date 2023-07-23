@@ -63,7 +63,10 @@ class _CenterContentState extends State<CenterContent> {
     "Sanima Life Insurance Limited",
     "8% Nabil Debenture 2085",
     "Manushi Laghubitta Bittiya Sanstha Limited",
-    "Nepal Infrastructure bank Limited"
+    "Nepal Infrastructure bank Limited",
+    "Nepal Reinsurance Company Limited",
+    "Gorahi Cement Industry Limited",
+    "IME Life Insurance Limited",
   ];
 
   final List<DropdownMenuItem<String>> _companiesList = companies
